@@ -13,7 +13,7 @@ struct ContentView: View {
     @Environment(\.modelContext) private var context
     @Query private var users: [UserModel]
 
-    @State private var inputName: String = ""
+    @State private var inputName: String = "a"
     @State private var inputAge: String = ""
     @State private var sheet = false
     
