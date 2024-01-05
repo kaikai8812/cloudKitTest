@@ -10,22 +10,25 @@ import SwiftData
 
 struct FirstTabView: View {
     
-    let store: UserStore = .shared
+    @State var state: FirstTabViewState
     
     var body: some View {
         VStack {
             Text("FirstTabView")
                 .font(.title)
                 .padding()
-            Text(store.values.first?.name ?? "データなし")
+            
+            List(state.users) { user in
+                Text(user.name)
+            }
             
             Button("データ追加") {
-                store.save(.init(name: "test"))
+                state.saveUser()
             }
         }
     }
 }
 
 #Preview {
-    FirstTabView()
+    FirstTabView(state: .init())
 }

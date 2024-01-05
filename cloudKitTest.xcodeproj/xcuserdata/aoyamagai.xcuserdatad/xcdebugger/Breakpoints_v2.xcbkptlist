@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "87671AD6-6A4D-4C61-859A-84816513F27A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A477BB15-7374-477F-A287-59AC0B3167ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudKitTest/ViewState/FirstTabViewState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "firstUserText"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "692E1B3B-443B-46B2-892A-BAC0D483FC1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudKitTest/ViewState/FirstTabViewState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "users"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "692E1B3B-443B-46B2-892A-BAC0D483FC1A - d15071f4877a58e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.users.getter : Swift.Array&lt;cloudKitTest.UserModel&gt;"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "692E1B3B-443B-46B2-892A-BAC0D483FC1A - d15071f4877a58e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.users.getter : Swift.Array&lt;cloudKitTest.UserModel&gt;"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6350665-CB37-45D4-A94D-81014CABDD8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudKitTest/ViewState/FirstTabViewState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C6350665-CB37-45D4-A94D-81014CABDD8A - 36fbfe736bc5531a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.init() -&gt; cloudKitTest.FirstTabViewState"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "C6350665-CB37-45D4-A94D-81014CABDD8A - 36fbfe736bc5531a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.init() -&gt; cloudKitTest.FirstTabViewState"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "276AF83F-BBCC-4F8C-BE7B-FDFE83F8E2AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudKitTest/ViewState/FirstTabViewState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "saveUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "276AF83F-BBCC-4F8C-BE7B-FDFE83F8E2AE - 5d522b9143cda663"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.saveUser() -&gt; ()"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "276AF83F-BBCC-4F8C-BE7B-FDFE83F8E2AE - 5d522b9143cda663"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudKitTest.FirstTabViewState.saveUser() -&gt; ()"
+                  moduleName = "cloudKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Project/SwiftUiPractice/cloudKitTest/cloudKitTest/ViewState/FirstTabViewState.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

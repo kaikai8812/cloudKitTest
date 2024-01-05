@@ -6,3 +6,28 @@
 //
 
 import Foundation
+import Observation
+
+@Observable
+class FirstTabViewState {
+    
+    private var store: UserStore
+    
+    var firstUserText: String {
+        store.values.last?.name ?? ""
+    }
+    
+    var users: [UserModel] {
+        store.loadValue()
+        return store.values
+    }
+    
+    
+    init() {
+        store = .shared
+    }
+    
+    func saveUser() {
+        store.save(.init(name: "first"))
+    }
+}

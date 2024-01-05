@@ -9,17 +9,18 @@ import SwiftUI
 
 struct SecondTabView: View {
     
-    let store: UserStore = .shared
+//    let store: UserStore = .shared
+    var state: SecondTabViewState = .init()
     
     var body: some View {
         VStack {
             Text("SecondTabView")
                 .font(.title)
                 .padding()
-            Text(store.values.first?.name ?? "データなし")
+            Text(state.userText)
             
             Button("データ追加") {
-                store.save(.init(name: "test"))
+                state.saveUser()
             }
         }
     }

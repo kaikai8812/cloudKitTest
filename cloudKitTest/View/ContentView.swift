@@ -12,8 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            FirstTabView()
-                .tabItem { 
+            FirstTabView(state: .init())
+                .tabItem {
                     Label("FirstTabView", systemImage: "tray.and.arrow.down.fill")
                 }
             SecondTabView()
