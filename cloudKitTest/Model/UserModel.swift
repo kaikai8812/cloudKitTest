@@ -11,10 +11,8 @@ import SwiftData
 @Model
 class UserModel {
     var name: String = ""
-    var age: Int = 0
     
-    init(name: String, age: Int) {
+    init(name: String) {
         self.name = name
-        self.age = age
     }
 }

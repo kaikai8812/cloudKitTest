@@ -8,19 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		E84B12942B469B6700A64FFA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B12932B469B6700A64FFA /* UserModel.swift */; };
+		E8552A152B47DEDB0072DBF4 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A142B47DEDB0072DBF4 /* FirstTabView.swift */; };
+		E8552A172B47DEF70072DBF4 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A162B47DEF70072DBF4 /* SecondTabView.swift */; };
+		E8552A1D2B47E01D0072DBF4 /* FirstTabViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A1C2B47E01D0072DBF4 /* FirstTabViewState.swift */; };
+		E8552A1F2B47E0270072DBF4 /* SecondTabViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A1E2B47E0270072DBF4 /* SecondTabViewState.swift */; };
+		E8552A212B47ED2B0072DBF4 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A202B47ED2B0072DBF4 /* UserStore.swift */; };
 		E8DD81FB2B45AC5600D10413 /* cloudKitTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */; };
 		E8DD81FD2B45AC5600D10413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD81FC2B45AC5600D10413 /* ContentView.swift */; };
-		E8DD81FF2B45AC5600D10413 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD81FE2B45AC5600D10413 /* Item.swift */; };
 		E8DD82012B45AC5700D10413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DD82002B45AC5700D10413 /* Assets.xcassets */; };
 		E8DD82042B45AC5700D10413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DD82032B45AC5700D10413 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E84B12932B469B6700A64FFA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E8552A142B47DEDB0072DBF4 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		E8552A162B47DEF70072DBF4 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		E8552A1C2B47E01D0072DBF4 /* FirstTabViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewState.swift; sourceTree = "<group>"; };
+		E8552A1E2B47E0270072DBF4 /* SecondTabViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewState.swift; sourceTree = "<group>"; };
+		E8552A202B47ED2B0072DBF4 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		E8DD81F72B45AC5600D10413 /* cloudKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudKitTestApp.swift; sourceTree = "<group>"; };
 		E8DD81FC2B45AC5600D10413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E8DD81FE2B45AC5600D10413 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E8DD82002B45AC5700D10413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8DD82032B45AC5700D10413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8DD82052B45AC5700D10413 /* cloudKitTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudKitTest.entitlements; sourceTree = "<group>"; };
@@ -38,6 +46,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8552A182B47DFD70072DBF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8DD81FC2B45AC5600D10413 /* ContentView.swift */,
+				E8552A142B47DEDB0072DBF4 /* FirstTabView.swift */,
+				E8552A162B47DEF70072DBF4 /* SecondTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8552A192B47DFDD0072DBF4 /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+				E8552A1C2B47E01D0072DBF4 /* FirstTabViewState.swift */,
+				E8552A1E2B47E0270072DBF4 /* SecondTabViewState.swift */,
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		E8552A1A2B47DFE80072DBF4 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				E8552A202B47ED2B0072DBF4 /* UserStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E8552A1B2B47DFF00072DBF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E84B12932B469B6700A64FFA /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E8DD81EE2B45AC5600D10413 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +101,14 @@
 			isa = PBXGroup;
 			children = (
 				E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */,
-				E8DD81FC2B45AC5600D10413 /* ContentView.swift */,
-				E8DD81FE2B45AC5600D10413 /* Item.swift */,
+				E8552A1B2B47DFF00072DBF4 /* Model */,
+				E8552A1A2B47DFE80072DBF4 /* Store */,
+				E8552A192B47DFDD0072DBF4 /* ViewState */,
+				E8552A182B47DFD70072DBF4 /* View */,
 				E8DD82002B45AC5700D10413 /* Assets.xcassets */,
 				E8DD82052B45AC5700D10413 /* cloudKitTest.entitlements */,
 				E8DD82062B45AC5700D10413 /* Info.plist */,
 				E8DD82022B45AC5700D10413 /* Preview Content */,
-				E84B12932B469B6700A64FFA /* UserModel.swift */,
 			);
 			path = cloudKitTest;
 			sourceTree = "<group>";
@@ -147,9 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8552A1F2B47E0270072DBF4 /* SecondTabViewState.swift in Sources */,
+				E8552A152B47DEDB0072DBF4 /* FirstTabView.swift in Sources */,
+				E8552A1D2B47E01D0072DBF4 /* FirstTabViewState.swift in Sources */,
 				E8DD81FD2B45AC5600D10413 /* ContentView.swift in Sources */,
-				E8DD81FF2B45AC5600D10413 /* Item.swift in Sources */,
 				E84B12942B469B6700A64FFA /* UserModel.swift in Sources */,
+				E8552A172B47DEF70072DBF4 /* SecondTabView.swift in Sources */,
+				E8552A212B47ED2B0072DBF4 /* UserStore.swift in Sources */,
 				E8DD81FB2B45AC5600D10413 /* cloudKitTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
