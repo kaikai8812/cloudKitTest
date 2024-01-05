@@ -18,7 +18,11 @@ class FirstTabViewState {
     }
     
     var users: [UserModel] {
-        store.loadValue()
+        do {
+            try store.loadValue()
+        } catch {
+            print("🌝：\(error)")
+        }
         return store.values
     }
     
@@ -28,6 +32,10 @@ class FirstTabViewState {
     }
     
     func saveUser() {
-        store.save(.init(name: "first"))
+        do {
+            try store.save(.init(name: "first"))
+        } catch {
+            print("🌝：\(error)")
+        }
     }
 }

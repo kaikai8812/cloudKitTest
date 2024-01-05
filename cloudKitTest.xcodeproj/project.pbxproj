@@ -13,6 +13,7 @@
 		E8552A1D2B47E01D0072DBF4 /* FirstTabViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A1C2B47E01D0072DBF4 /* FirstTabViewState.swift */; };
 		E8552A1F2B47E0270072DBF4 /* SecondTabViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A1E2B47E0270072DBF4 /* SecondTabViewState.swift */; };
 		E8552A212B47ED2B0072DBF4 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A202B47ED2B0072DBF4 /* UserStore.swift */; };
+		E8552A242B481FD60072DBF4 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552A232B481FD60072DBF4 /* UserRepository.swift */; };
 		E8DD81FB2B45AC5600D10413 /* cloudKitTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */; };
 		E8DD81FD2B45AC5600D10413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD81FC2B45AC5600D10413 /* ContentView.swift */; };
 		E8DD82012B45AC5700D10413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DD82002B45AC5700D10413 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		E8552A1C2B47E01D0072DBF4 /* FirstTabViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewState.swift; sourceTree = "<group>"; };
 		E8552A1E2B47E0270072DBF4 /* SecondTabViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewState.swift; sourceTree = "<group>"; };
 		E8552A202B47ED2B0072DBF4 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		E8552A232B481FD60072DBF4 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		E8DD81F72B45AC5600D10413 /* cloudKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudKitTestApp.swift; sourceTree = "<group>"; };
 		E8DD81FC2B45AC5600D10413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E8552A222B481FC30072DBF4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E8552A232B481FD60072DBF4 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		E8DD81EE2B45AC5600D10413 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		E8DD81F92B45AC5600D10413 /* cloudKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				E8552A222B481FC30072DBF4 /* Repository */,
 				E8DD81FA2B45AC5600D10413 /* cloudKitTestApp.swift */,
 				E8552A1B2B47DFF00072DBF4 /* Model */,
 				E8552A1A2B47DFE80072DBF4 /* Store */,
@@ -193,6 +204,7 @@
 			files = (
 				E8552A1F2B47E0270072DBF4 /* SecondTabViewState.swift in Sources */,
 				E8552A152B47DEDB0072DBF4 /* FirstTabView.swift in Sources */,
+				E8552A242B481FD60072DBF4 /* UserRepository.swift in Sources */,
 				E8552A1D2B47E01D0072DBF4 /* FirstTabViewState.swift in Sources */,
 				E8DD81FD2B45AC5600D10413 /* ContentView.swift in Sources */,
 				E84B12942B469B6700A64FFA /* UserModel.swift in Sources */,

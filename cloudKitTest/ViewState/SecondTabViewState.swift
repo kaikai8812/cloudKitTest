@@ -11,15 +11,21 @@ import Observation
 
 class SecondTabViewState {
     
-    var store: UserStore = .shared
+    private var store: UserStore
     
-    var userText: String
+    var userText: String {
+        store.values.first?.name ?? "中身なし"
+    }
     
     init() {
-        userText = store.values.first?.name ?? "データなし"
+        store = .shared
     }
     
     func saveUser() {
-        store.save(.init(name: "second"))
+        do {
+         try store.save(.init(name: "second"))
+        } catch {
+            print("🌝：\(error)")
+        }
     }
 }

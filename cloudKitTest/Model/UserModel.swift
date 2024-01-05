@@ -10,7 +10,7 @@ import SwiftData
 
 @Model
 class UserModel {
-    var name: String = ""
+    var name: String = "a"
     
     init(name: String) {
         self.name = name
